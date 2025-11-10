@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: #f0e4cf;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  width: 400px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0077ff;
+}
+.links a:hover {
+  text-decoration: underline;
+}
